@@ -49,7 +49,7 @@ export function Verification() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-white to-[#edf6ff]">
-      <div className="container mx-auto flex justify-between items-center p-4">
+      <div className="max-w-7xl mx-auto flex justify-between items-center py-4">
         <img
           src="/logo.png"
           alt="AuthentiMATE"
@@ -63,7 +63,33 @@ export function Verification() {
           />
         </div>
       </div>
-      <div className="container mx-auto">
+      <div className="max-w-7xl mx-auto">
+        <div className="flex justify-between items-center h-28 bg-[#F2F7FD] rounded-2xl shadow-lg mt-8">
+          <img
+            src="/design-01jgnhwmqx-1735890821 1.png"
+            className="object-cover w-56 h-full"
+          />
+          <div className="flex items-center gap-10">
+            <div className="text-center space-y-2">
+              <h3 className="text-2xl font-bold">
+                Join Our WhatsApp Community & Get Freebies!
+              </h3>
+              <p className="text-xs">
+                Connect with like-minded users, stay updated, and enjoy
+                exclusive rewards—just for being part of our community!
+              </p>
+            </div>
+            <div>
+              <button className="bg-[#3D0EA9] text-white px-4 py-2 rounded-md w-28">
+                Join Now
+              </button>
+            </div>
+          </div>
+          <img
+            src="/design-01jgnhwmqx-1735890564 1.png"
+            className="object-cover w-56 h-full"
+          />
+        </div>
         <h1 className="text-2xl font-bold text-center my-8">
           You've earned it! Here's your certificate.
         </h1>
@@ -138,7 +164,7 @@ export function Verification() {
       </div>
 
       <footer className="bg-[#3D0EA9] text-white py-10 px-6 rounded-t-3xl">
-        <div className="container mx-auto flex flex-wrap justify-between items-start space-y-6 sm:space-y-0">
+        <div className="max-w-7xl mx-auto flex flex-wrap justify-between items-start space-y-6 sm:space-y-0">
           <div className="">
             <img src="/logo-white.png" alt="AuthentiMATE" className="h-10" />
             <p className="">
