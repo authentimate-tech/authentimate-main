@@ -1,4 +1,3 @@
-
 export default class AppError extends Error {
     statusCode: number;
     status: string;
